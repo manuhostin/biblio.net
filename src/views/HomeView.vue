@@ -1,9 +1,9 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
+<script setup></script>
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+<h1>BIBLIOTECA.NET</h1><router-link to="contatos">Contatos</router-link>
 </template>
+<style scoped>
+h1{
+font-size: 70px;
+}
+</style>

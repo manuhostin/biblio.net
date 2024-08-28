@@ -33,3 +33,16 @@ npm run build
 ```sh
 npm run lint
 ```
+nav{
+background-color:rgb(129, 129, 129);
+color:white;
+width: 1300px;
+height: 150px;
+text-align: center
+}
+input{
+margin: 20px;
+}
+router-link{
+margin: 20px;
+}

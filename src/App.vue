@@ -17,9 +17,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('src/assets/Biblio.net.png'); /* Use @ para acessar a pasta assets */
-    background-size: cover;
-    background-position: center;
+ 
 }
 
 /* Navigation Styles */

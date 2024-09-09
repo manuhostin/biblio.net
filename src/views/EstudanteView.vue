@@ -11,8 +11,21 @@
         </router-link>
       </div>
     </nav>
-    <h1>BIBLIO.NET</h1>
-
+    <h1>Empréstimos</h1>
+      <div class="container-book">
+        <img id="imagem-book" src="../assets/imagens/img1.png" alt=""> 
+          <div class="informacoes">
+            <h2>Harry Potter e a pedra filosofal</h2>
+            <p id="user-description">
+              Publicado em 1997 peka aclamada escritora britâncica J.K. Rowling, 'Harry Potter e a pedra filosofal' marca o início de uma das séries literárias mais influetes e amadas do século XXI. Este primeiro volume apresenta-nos ao jovem Harry Potter, sua entrada na Escola de Magia e Bruxariade Hogwarts, o legado de seus pais e a sombria figura de Lord Voldemort.
+            </p>
+            <div class="textoButton">            
+               <router-link to="/">
+              <button>Voltar</button>
+            </router-link></div>
+             
+          </div>
+      </div>
   </div>
 </template>
 
@@ -23,20 +36,11 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.background2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: antiquewhite;
-}
+
 
 #user {
   width: 20px;
-
   margin-top: 0;
-
 }
 
 #logo {
@@ -53,16 +57,6 @@ h1 {
   color: #000000;
   text-align: center;
   padding: 40px 0 0 0;
-}
-
-p {
-  font-family: "Poppins", sans-serif;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), 0 0 25px rgba(0, 0, 0, 0.5);
-  font-style: normal;
-  font-size: 40px;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
 }
 
 nav {
@@ -89,40 +83,62 @@ nav a:hover {
   text-decoration: underline;
 }
 
-main {
-  font-family: "Poppins", sans-serif;
 
-  padding: 20px;
-  background-color: #fff;
-  min-height: 80vh;
-  /* Garante que o conteúdo principal ocupe uma quantidade razoável de espaço */
-}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+  }
+  button {
+    background-color: rgb(12, 12, 12);
+    color: white;
+    border-radius: 14px;
+    font-size: 20px;
+    width: 150px;
+    height: 34px;
+    margin: 18px;
+  }
 
-.contact-container {
-  display: flex;
-  justify-content: center;
-  /* Centraliza o conteúdo horizontalmente */
-  margin-top: 20px;
-  /* Espaço acima do link de contato */
-}
+  .textoButton {
+    font-size: 20px;
+  }
 
-.contato {
-  font-family: "Poppins", sans-serif;
+  .container-book {
+    padding: 150px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: solid black 3px
+  }
+  
+  #imagem-book {
+    width: 300px;
+    margin: 0;
+    padding: 0px;
+  }
+  
+  .informacoes {
+    flex: 1;
+  }
+  
+  h2 {
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+  
+  p {
+    margin:0;
+    font-size: 30px;
+    color: #000000;
+  }
+  
 
-  color: #fff;
-  font-size: 24px;
-  /* Ajuste o tamanho da fonte se necessário */
-  text-decoration: none;
-  padding: 10px 20px;
-  border: 1px solid #fff;
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.5);
-  /* Fundo semitransparente para contraste */
-}
-
-.contato:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  /* Efeito ao passar o mouse */
-  color: #000;
-}
 </style>

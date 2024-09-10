@@ -1,10 +1,15 @@
 <script setup></script>
 <template>
     <nav>
+        <img id="logo" src="../assets/imagens/logo.jpg" alt="">
         <router-link to="/">HOME</router-link>
         <router-link to="contatos">CONTATOS</router-link>
         <router-link to="acervo">ACERVO</router-link>
-        <input type="text">
+        <div id="user">
+            <router-link to="/login">
+                <img src="../assets/imagens/user.png" alt="" />
+            </router-link>
+        </div>
     </nav>
     <main>
         <Router-View />

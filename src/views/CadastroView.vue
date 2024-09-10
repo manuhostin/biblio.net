@@ -32,7 +32,7 @@
       </div>
 
       <button class="access-button">
-        <router-link to="/estudante">Acessar</router-link>
+        <router-link to="/">Acessar</router-link>
       </button>
     </div>
   </div>

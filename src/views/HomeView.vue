@@ -1,24 +1,27 @@
 <template>
   <div class="background1">
     <nav>
-      <img id="logo" src="@/assets/imagens/logo.jpg" alt="">
+      <img id="logo" src="../assets/imagens/logo.jpg" alt="">
       <router-link to="/">HOME</router-link>
       <router-link to="contatos">CONTATOS</router-link>
       <router-link to="acervo">ACERVO</router-link>
-      <input type="text">
+      <div id="user">
+        <router-link to="/login">
+          <img src="../assets/imagens/user.png" alt="" />
+        </router-link>
+      </div>
     </nav>
     <h1>BIBLIO.NET</h1>
     <p>
-      Bem-vindos ao Biblio.net 
+      Bem-vindos ao Biblio.net <br>
       Sistema para a biblioteca da sua escola!
     </p>
     <div class="contact-container">
-      <router-link to="login" class="contato">Faça seu cadastro!</router-link>
+      <router-link to="/cadastro" class="contato">Faça seu cadastro!</router-link>
 
     </div>
-    <!-- Adicione outros elementos aqui se necessário -->
-  </div>
 
+  </div>
 </template>
 
 <script setup>
@@ -57,15 +60,17 @@ h1 {
   font-size: 70px;
   color: #fff;
   text-align: center;
+  padding: 40px 0 0 0;
 }
 
 p {
   font-family: "Poppins", sans-serif;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), 0 0 25px rgba(0, 0, 0, 0.5);
   font-style: normal;
-  font-size: 20px;
+  font-size: 40px;
   color: #fff;
   text-align: center;
+  padding: 20px;
 }
 
 nav {
@@ -78,14 +83,6 @@ nav {
   height: 28px;
   padding: 10px 10px;
   color: #fff;
-}
-
-nav input[type="text"] {
-  font-family: "Poppins", sans-serif;
-  padding: 5px;
-  border: none;
-  border-radius: 10px;
-  outline: none;
 }
 
 nav a {

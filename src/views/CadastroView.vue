@@ -31,8 +31,8 @@
         <input id="input" type="password">
       </div>
 
-      <button @click="alterarTexto" class="access-button"> 
-        <router-link to="/estudante">Acessar</router-link>
+      <button class="access-button">
+        <router-link to="/">Acessar</router-link>
       </button>
     </div>
   </div>

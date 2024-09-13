@@ -13,24 +13,22 @@
 </template>
 <style scoped>
 /* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
- 
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Navigation Styles */
-nav {
+  nav {
+    font-family: "Poppins", sans-serif;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #333;
+    background-color: #000000;
     padding: 10px 20px;
     color: #fff;
 }
 
 nav input[type="text"] {
+    font-family: "Poppins", sans-serif;
+
     padding: 5px;
     border: none;
     border-radius: 10px;
@@ -48,11 +46,13 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Main Content Styles */
 main {
+    font-family: "Poppins", sans-serif;
+
     padding: 20px;
     background-color: #fff;
     min-height: 80vh; /* Garante que o conteúdo principal ocupe uma quantidade razoável de espaço */
 }
+
 
 </style>

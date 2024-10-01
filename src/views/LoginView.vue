@@ -35,7 +35,7 @@
   max-width: 600px; /* Largura máxima do formulário */
   margin: 0 auto; /* Centraliza o formulário horizontalmente */
   padding: 20px; /* Espaço interno do contêiner */
-  background-color: #696969; /* Cor de fundo do formulário */
+  background-color: #9eeffa; /* Cor de fundo do formulário */
   border-radius: 8px; /* Bordas arredondadas do formulário */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve ao redor do formulário */
 }
@@ -79,7 +79,7 @@
     left: 0;
     width: 100%;
     height: 100vh; /* Ocupa toda a altura da janela de visualização */
-    background-image: url('https://png.pngtree.com/background/20230527/original/pngtree-an-old-bookcase-in-a-library-picture-image_2760144.jpg');
+    background-image: url('https://i.pinimg.com/originals/d0/d9/ab/d0d9abb36e4cbf5289544540616eafc0.jpg');
     background-size: cover; /* Faz a imagem cobrir toda a área */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
@@ -89,7 +89,7 @@ h1{
       font-weight: 700; 
        font-style: normal;
     font-size: 70px;
-    color: #000000;
+    color: #4437fc;
     text-align: center;
 }
 div{
@@ -154,6 +154,6 @@ nav a:hover {
 
 /* Estiliza o botão ao passar o mouse */
 .access-button:hover {
-  background-color: #555555; /* Cor de fundo mais escura ao passar o mouse */
+  background-color: #4c6bad; /* Cor de fundo mais escura ao passar o mouse */
 }
 </style>
